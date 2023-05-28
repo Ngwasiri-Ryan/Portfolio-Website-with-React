@@ -1,0 +1,238 @@
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-color:var(--primary-color);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    display: flex;
+    width: 100%;
+    height: 75%;
+   padding-top: 10%;
+    gap: 2rem;
+    padding-left: 22%;
+  }
+  .container .icons{
+    height: 50%;
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-top: 7%;
+    margin-left:-7%;
+    margin-right: 10%;
+    
+  }
+  .container .icons img{
+   width: 1rem;
+   height: 1rem;
+   cursor: pointer;
+  }
+  .container .icons img:hover{
+    transform: scale(1.3);
+    transition: 300ms ease;
+  }
+  .container .intro{
+    width: 30%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .intro .holder{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .container .intro .holder .heading{
+   font-size: 2rem;
+   font-weight: 800;
+   margin-bottom: 0px;
+   color: var(--color-white);
+  }
+  .container .intro .holder .heading span{
+    color: var(--secondary-color);
+   text-shadow: var(--text-shadow);;
+  }
+  .container .intro .holder .info{
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    text-shadow: var(--text-shadow);
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+  }
+  .container .intro .holder .skills{
+    width: 100%;
+    gap: 1rem;
+    height: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    margin-bottom: 4rem;
+  
+  }
+  .container .intro .holder .skills .skill-img{
+    height: 100%;
+    width: 1.4rem;
+  }
+  .container .intro .holder .button-holder{
+    display: flex;
+    gap: 2rem;
+  }
+  .container .intro .holder button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 8rem;
+    background-color: transparent;
+   color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .container .intro .holder button:hover{
+    border: none;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    transition: var(--transition);  
+}
+  .container .picture{
+    width: 35%;
+    height: 23rem;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    background-color: var(--secondary-color);
+    border-radius: var(--blob-border-radius);
+  }
+  .container .picture:hover{
+    transition:border-radius var(--transition);  
+    border-radius:var(--blob-border-radius-hover); 
+  }
+  .container .picture img{
+    position: absolute;
+    height: 70%;
+    margin-left:2%;
+    margin-top: -5%;
+
+  }
+  .container .scroll a{
+    color: var(--secondary-color);
+    margin-top: 20rem;
+    margin-left: 5rem;
+    display: flex;
+    transform: rotate(90deg);
+    text-decoration: none;
+  }
+  .home .navbar-holder{
+    width: 100%;
+    height: 8%;
+    margin-bottom: 3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .home .navbar-holder .navbar{
+    width: 30rem;
+    height: 8%;
+    border-radius: 2rem;
+    background-color: var(--navbar-bgcolor);
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    gap: 10%;
+    padding-left: 1rem;
+    padding-bottom: 2px;
+    position: fixed;
+  }
+  .home .navbar-holder .navbar .holder{
+    margin-top: 10px;
+     height: 2.5rem;
+     width: 4rem;
+     border-radius: 50%;
+     object-fit: cover;
+  }
+  .home .navbar-holder .navbar .holder:hover{
+    background-color: var(--navbar-bgcolor-hover);
+  }
+  .home .navbar-holder .navbar .holder a img{
+    height: 50%;
+    width: 50%;
+    margin-left: .5rem;
+    margin-top: .5rem;
+  }
+
+  /*responsive web-design*/
+  @media  screen and (min-width: 952px){
+    .container .intro .holder .heading{
+      font-size: 1.5rem;
+    }
+    .container{
+      gap: 1%;
+    }
+  }
+  @media  screen and (max-width: 1011px){
+  .container .picture img{ 
+         margin-right: 8rem;
+         width: 70%;
+  }
+  }
+  @media  screen and (max-width: 967px){
+    .home .navbar-holder{
+      margin-left: -3%;
+    }
+  }
+  @media  screen and (max-width: 938px){
+    .container .intro .holder .heading{
+      font-size: 1.5rem;
+    }
+  }
+  @media  screen and (max-width: 758px){
+    .container{
+      display: flex;
+      flex-direction: column;
+      position: center;
+      justify-content: center;
+      margin-left: 10%;
+      width: 1000px;
+      height: 100vh;
+    }
+    .container .intro .holder button{
+      width: 25rem;
+    }
+    .container .intro .holder button{
+      width: 6rem;
+    }
+    .container .icons{
+      display: flex;
+      flex-direction: row;
+      width: 40%;
+      height: 3%;
+      justify-content: center;
+      align-items: center;
+      gap: 10%;
+    }
+    .container .picture{
+      width: 30%;
+    }
+  }
+  @media  screen and (max-width: 517px){
+    .container{
+      margin-left: -4%;
+    }
+  }
+  @media  screen and (max-width: 682px){
+    .home .navbar-holder .navbar{
+      width: 20rem;
+    }
+  }
+
+  /*end of responsive webdesign*/

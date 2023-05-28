@@ -1,0 +1,82 @@
+.services{
+    width: 100%;
+    height: 165vh;
+   background-color: var(--primary-color);
+   overflow-y: hidden;
+}
+.services .heading{
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--color-white);
+    font-weight: 600;
+}
+.services .heading span{
+    color: var(--secondary-color);
+}
+.services .service-head{
+    color: white;
+    font-family: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: -1rem;
+}
+.services .container{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  margin-left: -10rem;
+  overflow: hidden;
+  margin-top: -6rem;
+}
+.services .container .service{
+    height: 18rem;
+    width: 28rem;
+    background-color:#121212;
+    margin: 30px 15px 15px 15px;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+.services .container .services .service-info{
+    display: flex;
+    flex-direction: column;
+}
+.services .container .service .diamond{
+    width: 70px ;
+    height: 70px;
+    border: 3px solid var(--secondary-color);
+   overflow: hidden;
+   position: absolute;
+   margin-top:-12rem ;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+}
+.services .container .service .diamond img{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 18%;
+    margin-top: 15%;
+}
+.services .container .service .service-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+.services .container .service .title{
+    font-size: 2rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+   margin-top: 25%;
+    }
+.services .container .service .content{
+    color: var(--color-white);
+    width: 100%;
+    text-align: center;
+}
