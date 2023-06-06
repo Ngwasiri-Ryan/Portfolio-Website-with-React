@@ -18,8 +18,8 @@
 
      }
 .about .about-container .picture{
-    height: 25rem;
-    width: 30rem;
+    height: 21rem;
+    width: 23rem;
     overflow: hidden;
     background-color: var(--secondary-color);
     border-radius: 50% 50% 80%;
@@ -28,12 +28,9 @@
     border-radius: var(--blob-border-radius-hover);
 }
 .about .about-container .picture img{
-    height:70%;
-    width: 25%;
-    margin-left: 3%;
-    position: absolute;
-    margin-bottom: -10rem;
-    margin-top: -3%;
+    height:100%;
+    margin-left: 8%;
+    
  }
 .about .about-container .content{
     width: 30rem;
@@ -92,4 +89,35 @@
     background-color: var(--secondary-color);
     color: var(--primary-color);
     transition: var(--transition);
+}
+@media screen and (max-width:1024px) {
+    .about{
+        overflow-y: hidden;
+    }
+    .about-container{
+        gap: 3px;
+        height: 28rem;
+        overflow-y: hidden;
+    }
+    .about .about-container .content P{
+        font-size: 15px;
+        max-width: 90%;
+    }
+}
+@media screen and (max-width:768px){
+    .about{
+       height: 150vh;
+    }
+    .about .about-container{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 150vh;
+        gap: 0;
+        margin-top: -15%;
+    }
+    .about .about-container .picture{
+        height: 18rem;
+        width: 20rem;
+    }
+
 }

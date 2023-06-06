@@ -105,7 +105,7 @@
     transition: var(--transition);  
 }
   .container .picture{
-    width: 35%;
+    width: 22rem;
     height: 23rem;
     justify-content: center;
     align-items: center;
@@ -118,11 +118,8 @@
     border-radius:var(--blob-border-radius-hover); 
   }
   .container .picture img{
-    position: absolute;
-    height: 70%;
-    margin-left:2%;
-    margin-top: -5%;
-
+    height: 100%;
+    margin-left: 20%;
   }
   .container .scroll a{
     color: var(--secondary-color);
@@ -171,68 +168,130 @@
   }
 
   /*responsive web-design*/
-  @media  screen and (min-width: 952px){
-    .container .intro .holder .heading{
-      font-size: 1.5rem;
+  @media screen and (max-width: 1179px){
+    .home{
+      height: 120vh;
+    }
+    .container .picture{
+      margin-top: -2%;
+    }
+    .container .picture img{
+       transform: translateX(-20px);
     }
     .container{
-      gap: 1%;
+      margin-left: -30%;
+    }
+    .container .scroll{
+      display: none;
     }
   }
-  @media  screen and (max-width: 1011px){
-  .container .picture img{ 
-         margin-right: 8rem;
-         width: 70%;
-  }
-  }
-  @media  screen and (max-width: 967px){
-    .home .navbar-holder{
-      margin-left: -3%;
+  @media  screen and (min-width: 1024px){
+    .home{
+      height: 100vh;
     }
-  }
-  @media  screen and (max-width: 938px){
-    .container .intro .holder .heading{
-      font-size: 1.5rem;
+    .navbar-holder .navbar{
+      overflow-y: hidden;
     }
+    .container{
+      margin-left: .01%;
+    }
+    
   }
-  @media  screen and (max-width: 758px){
+  @media screen and (max-width: 989px){
     .container{
       display: flex;
       flex-direction: column;
-      position: center;
-      justify-content: center;
-      margin-left: 10%;
-      width: 1000px;
-      height: 100vh;
-    }
-    .container .intro .holder button{
-      width: 25rem;
-    }
-    .container .intro .holder button{
-      width: 6rem;
-    }
-    .container .icons{
-      display: flex;
-      flex-direction: row;
-      width: 40%;
-      height: 3%;
-      justify-content: center;
       align-items: center;
-      gap: 10%;
+      justify-content: center;
+      margin-left: -30%;
+      gap: 2%;
     }
     .container .picture{
-      width: 30%;
+      transform: translate(-50%);
     }
+    .container .intro{
+      width: 100%;
+      transform: translateX(-18%);
+    }
+  .container .icons{
+    display:block;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-right: 20rem;
+    height:3rem;
+    margin-bottom: -5%;
+    margin-top: -8%;
+    gap: 3rem;
+    transform: translateY(800%);
   }
-  @media  screen and (max-width: 517px){
-    .container{
-      margin-left: -4%;
-    }
-  }
-  @media  screen and (max-width: 682px){
-    .home .navbar-holder .navbar{
-      width: 20rem;
-    }
+  .container .picture{
+    width: 18rem;
   }
 
-  /*end of responsive webdesign*/
+}
+@media screen and (max-width: 768px){
+  .container .picture{
+    margin-top: 4rem;
+    height: 27rem;
+  }
+  .container{
+    margin-left: 1%;
+  }
+  .container .intro{
+    overflow-y: hidden;
+  }
+  .home{
+    height: 100vh;
+  }
+  .container .intro .holder{
+    overflow-y: hidden;
+    
+  }
+  .container .intro .holder .heading{
+    height: 8rem;
+    overflow-y: hidden;
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .container .intro .holder .info{
+    height: 6rem;
+    overflow-y: hidden;
+    text-align: center;
+  }
+  .container .icons{
+    margin-left: 3rem;
+  }
+  .container .intro .holder .skills{
+    height: 4rem;
+    margin-left: 3rem;
+  }
+  .container .intro .holder .button-holder{
+    margin-top: -12%;
+    height: 6rem;
+  }
+  .container .intro .holder .button-holder button{
+    overflow-y: hidden;
+  }
+}
+@media screen and (max-width: 761px) {
+  .home{
+    justify-content: center;
+    align-items: center;
+  }
+  .container .intro{
+    transform: translateX(6%);
+  }
+  .container .intro button{
+  margin-bottom: 5rem
+  }
+  .container .picture{
+    transform: translateX(10%);
+  }
+  .container .icons{
+   margin-left: 50%
+  }
+  
+ }
+ 
+  

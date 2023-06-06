@@ -1,6 +1,6 @@
 /****************contact page*********************/
 #contact{
-    height: 44rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     padding-top: 1%;
@@ -19,8 +19,9 @@
    justify-content: center;
    align-items: center;
    flex-direction: row;
+   padding-right: 2%;
    position: relative;
-   gap: 2%;
+   gap: 1%;
    padding: 2rem
 }
 .contact-heading{ 
@@ -38,13 +39,14 @@
     flex-direction: row;
     padding: 1rem;
     margin-top: -2rem;
-    gap: 15%;
+    gap: 5%;
     height: 70vh;
 }
 .contact-container .info{
     padding: 1rem;
     height: 100%;
-    width: 24rem;
+    text-rendering: auto;
+    width: 20rem;
    display: flex;
    color: var(--color-white);
    flex-direction: column;
@@ -80,10 +82,9 @@
    height: 100%;
 }
 .contact-container .form{
-    height: 15rem;
-    width: 25rem;
+    height: 20rem;
+    width: 23rem;
     gap: 4%;
-    background-color: transparent ;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -94,24 +95,33 @@
 .contact-container .form .heading{
     color: var(--secondary-color);
     font-size: 1.4rem;
+    height: 5rem;
 }
 .contact-container .form .input{
     background-color: transparent;
     width: 100%;
     margin-bottom: 10px;
-   height: 1.5rem;
+   height: 2rem;
+   overflow: hidden;
    padding: 5px;
 }
 .contact-container .form .input{
    border-bottom: 1px solid var(--secondary-color);
    width: 80%;
 }
+.contact-container .form .btn{
+    padding: 15px 30px;
+    color:var(--color-white) ;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--secondary-color);
+}
 .contact-container .form .input input[type="text"],input[type="textarea"]{
   border: none;
   color: var(--color-white);
   outline: none;
   width: 80%;
-  background-color: transparent;
+  background-color: var(--primary-color);
 }
 .contact-container .form input[type="submit"]{
     padding: 7px 20px;
@@ -142,6 +152,14 @@
     }
 }
     /*--FOR SMALL TABLETS AND MOBILE PHONES-----*/
+    @media screen and (max-width: 768px) {
+        .contact-container{
+           height: 20rem;
+        }
+        #contact{
+            height: 20rem;
+        }
+    }
 @media screen and (max-width: 977px) {
     #contact{
         padding: 3rem;
@@ -162,10 +180,23 @@
     height: 3rem;
     overflow-y: hidden;
 }
-   #contact .content
+.contact-container{
+    margin-top: 10%;
+}
+.contact-container .info-holder .inform .heading{
+    font-size: 15px;
+}
+.contact-container .info-holder .inform .heading p{
+    font-size: 10px;
+}
 .contact-container .info-holder{
+    height: 15%;
     overflow-y: hidden;
 }
+.contact-container .info{
+    overflow-y: hidden;
+    height: 15rem;
+ }
    .contact-container .info-holder .inform{
     height: 4rem;
    }
@@ -179,8 +210,8 @@
       overflow: hidden;
     }
     .contact-container .form{
-        margin-bottom: 5rem;
-        width: 36rem;
+        margin-bottom: 3rem;
+        width: 23rem;
         overflow-y: hidden;
     }
 }

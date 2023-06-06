@@ -9,7 +9,7 @@ function progress() {
                 <div className="experience-item">
                     <div className="experience-info">
                         <p>Web Designing</p>
-                        <p>70%</p>
+                        <p className='percentage'>70%</p>
                     </div>
                     <div className="progress-line" data-percent="90%">
                         <span style={{width: "70%"}}></span>
@@ -19,7 +19,7 @@ function progress() {
                 <div className="experience-item">
                     <div className="experience-info">
                         <p>Affillate Marketting</p>
-                        <p>40%</p>
+                        <p className='percentage'>40%</p>
                     </div>
                     <div className="progress-line" data-percent="90%">
                         <span style={{width: "40%"}}></span>
@@ -29,7 +29,7 @@ function progress() {
                 <div className="experience-item">
                     <div className="experience-info">
                         <p>Graphics Designing</p>
-                        <p>20%</p>
+                        <p className='percentage'>20%</p>
                     </div>
                     <div className="progress-line" data-percent="90%">
                         <span style={{width: "20%"}}></span>
@@ -39,7 +39,7 @@ function progress() {
                 <div className="experience-item">
                     <div className="experience-info">
                         <p>Web UI Design</p>
-                        <p>60%</p>
+                        <p className='percentage'>60%</p>
                     </div>
                     <div className="progress-line" data-percent="90%">
                         <span style={{width: "60%"}}></span>
@@ -49,7 +49,7 @@ function progress() {
                 <div className="experience-item">
                     <div className="experience-info">
                         <p>Github</p>
-                        <p>50%</p>
+                        <p className='percentage'>50%</p>
                     </div>
                     <div className="progress-line" data-percent="90%">
                         <span style={{width: "50%"}}></span>

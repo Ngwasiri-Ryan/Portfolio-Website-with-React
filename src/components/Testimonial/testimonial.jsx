@@ -12,37 +12,84 @@ function testimonial() {
           </div>
           <p>Here are some of the testimonials from my clients who had intrest in my work. </p>
           <div className="container">
-            <div className="testimonial">
-               <img src={pic1} />
-               <p className='name'>Katty Martins</p>
-               <p>You really made my dream website come to life.
-                I will spread the word on your work.
-               </p>
-            </div>
+           
+            <div className="testimonial-card">
+               <img src={pic1} alt="a picture"/>
+                <div className="content">
+               <span className='name'>John Doe</span>
+               <span>I really liked your logo design.</span>
+               <button>View Comments</button>
+                </div>
+                </div>
+                
+                <div className="testimonial-card">
+               <img src={pic1} alt="a picture"/>
+                <div className="content">
+               <span className='name'>John Doe</span>
+               <span>I really liked your logo design.</span>
+               <button>View Comments</button>
+                </div>
+                </div>
 
-            <div className="testimonial">
-               <img src={pic2} />
-               <p className='name'>Eyong Rens</p>
-               <p>I really love your graphic designs and logos. They are bringing in more
-                clients for interrations than before. Keep it up bro.
-               </p>
-            </div>
+                <div className="testimonial-card">
+               <img src={pic1} alt="a picture"/>
+                <div className="content">
+               <span className='name'>John Doe</span>
+               <span>I really liked your logo design.</span>
+               <button>View Comments</button>
+                </div>
+                </div>
 
-            <div className="testimonial">
-               <img src={pic3} />
-               <p className='name'>Ashu Raymond</p>
-               <p>I really love your web designs. They are bringing in more
-                clients for interrations than before.
-               </p>
-            </div>
+                <div className="testimonial-card">
+               <img src={pic1} alt="a picture"/>
+                <div className="content">
+               <span className='name'>John Doe</span>
+               <span>I really liked your logo design.</span>
+               <button>View Comments</button>
+                </div>
+                </div>
 
+                <div className="testimonial-card">
+               <img src={pic1} alt="a picture"/>
+                <div className="content">
+               <span className='name'>John Doe</span>
+               <span>I really liked your logo design.</span>
+               <button>View Comments</button>
+                </div>
+                </div>
 
+                <div className="testimonial-card">
+               <img src={pic1} alt="a picture"/>
+                <div className="content">
+               <span className='name'>John Doe</span>
+               <span>I really liked your logo design.</span>
+               <button>View Comments</button>
+                </div>
+              
+               </div>
 
-            </div>  
-          
+                <div className="testimonial-card">
+               <img src={pic3} alt="a picture"/>
+                <div className="content">
+               <span className='name'>Cliford Brown</span>
+               <span>You make good front-end websites.</span>
+               <button>View Comments</button>
+                </div>
+              
+               </div>
+               <div className="testimonial-card">
+               <img src={pic2} alt="a picture"/>
+                <div className="content">
+               <span className='name'>Kajo Sandy</span>
+               <span>Loved your gaphics design.</span>
+               <button>View Comments</button>
+                </div>
+              
+               </div>
 
-
-</div>
+         
+               </div>
+               </div>
           </div>
   )
 }

@@ -150,25 +150,26 @@
    color: var(--color-white);
    padding-right: 1rem;
   }
- @media (min-width: 768px){
-    .container{
-        margin: 0 auto;
-    }
+ @media  screen and (max-width: 1024px) {
+   .experience{
+      height: 120vh;
+   }
+   
+   .experience .container{
+      gap:0;
+   } 
+ .progress-line{
+      width: 95%;
+   }
+   .experience-info .percentage{
+      margin-left: -10%;
+   }
  }
- @media (min-width: 992px){
-    .container{
-       max-width: 960px;
-    }
+ @media  screen and (max-width: 768px){
+   .experience{
+      height: 200vh;
+   }
+   .experience .container .progress-skills{
+      height: 100%;
+   }
  }
- @media (min-width: 1200px){
-    .container{
-        max-width: 1140px;
-    }
- }
- @media (min-width: 1400px){
-    .container{
-        max-width: 1350px;
-    }
- }
- 
- 

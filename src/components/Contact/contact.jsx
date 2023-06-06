@@ -3,7 +3,8 @@ import Info from './info'
 import Form from './form'
 import './contact.css'
 function Contact() {
-  return (
+  
+    return (
     <div id="contact">
       <div className='contact-heading'>
         <center>
