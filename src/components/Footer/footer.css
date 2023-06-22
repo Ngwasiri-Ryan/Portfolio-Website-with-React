@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     gap: 5%;
-    background-color: var(--dark-bgcolor);
+    background-color: var(--progress
+    -color
+    );
     overflow: hidden;
 }
 .footer p{

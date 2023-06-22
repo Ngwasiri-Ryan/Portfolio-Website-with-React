@@ -10,6 +10,7 @@
   --blob-border-radius:90% 60% 100%  /45% 67.9%;
   --blob-border-radius-hover:50% 50% 80% 50% /45% 67.9% 50% 50%;
   --dark-bgcolor:#121212;
+  --progress-color: #5555ff;
   }
   
   html{

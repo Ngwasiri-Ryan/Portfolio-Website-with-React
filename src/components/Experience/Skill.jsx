@@ -40,16 +40,55 @@ function Skill() {
                     </div>
                     <span>67%</span>
             </div>
+      </div>
+            <div className="aspiring">
+               <div className="box">
+                  <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        nodejs</p>
+                  </div>
+                  <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        expressjs</p>
+                  </div>
+                  <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        mongodb</p>
+                  </div>
+                  <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        React Native</p>
+                  </div>
+                  
+               </div>
 
-
-
-
-
-
-
-
-         </div>
-
+               <div className="box">
+               <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        MySQL</p>
+                  </div>
+                  <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        Php</p>
+                  </div>
+                  <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        TypeScript</p>
+                  </div>
+                  <div className="content">
+                     <span></span>
+                     <p className='name'>
+                        Tailwind CSS</p>
+                  </div>
+               </div>
+            </div>
          </div>
       
     </div>

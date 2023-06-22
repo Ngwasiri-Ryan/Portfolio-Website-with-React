@@ -22,22 +22,33 @@
         height: 10rem;
         display: flex;
         gap: 3%;
+        cursor: pointer;
      }
      .about .about-container .boxes .box{
         height: 100%;
         width: 40%;
         background-color: var(--secondary-color);
         border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        justify-self: center;
         flex-direction: column;
-        gap: 5%;
      }
-     
+    
+     .about .about-container .boxes .box img{
+        height: 2rem;
+        margin-left: 35%;
+        margin-top: 3rem;
+     }
+     .about .about-container .boxes .box p{
+        margin-left: 32%;
+        margin-top: -1px;
+     }
+     .about .about-container .boxes .box span{
+        margin-left: 40%;
+        color: var(--color-white);
+
+     }
 .about .about-container .picture{
-    height: 21rem;
-    width: 21rem;
+    height: 25rem;
+    width: 25rem;
     overflow: hidden;
     background-color: var(--secondary-color);
    border-radius: 2rem;
@@ -46,7 +57,9 @@
     align-items: center;
     padding-bottom: 10%;
    margin-bottom: 10rem;
+   cursor: pointer;
 }
+
 
 .about .about-container .picture img{
     height:100%;
@@ -92,6 +105,7 @@
     margin-left: -2rem;
     width: 1px;
     background-color: var(--secondary-color);
+    display: none;
 }
 .about .about-container .content button{
     padding-top: 10px;
