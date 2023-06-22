@@ -2,25 +2,22 @@ import React from 'react'
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 function form() {
-
-
-     const sendEmail = (e) => {
-      e.preventDefault();
   
-      emailjs.sendForm('service_ij0vsp1', 'template_t5815vn', form.current, 'ip41CGhs3MowyAGey')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-        e.target.reset();
-        
-    };
-
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+          console.log('success');
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+  
+     
   return (
-    <div>
-       <form className='form' ref={form} onSubmit={sendEmail}>
+    <form className='form' ref={form} onSubmit={sendEmail}>
           <div className='heading'>
             Send Message
           </div>
@@ -40,7 +37,8 @@ function form() {
           <button type='submit' className='btn' >Submit</button>
           
         </form>
-        </div>
+      
+  
 
   )
 }

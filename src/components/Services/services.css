@@ -22,15 +22,15 @@
 }
 .services .container{
   width: 100%;
-  margin: auto;
+  height: 140vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-items: center;
   justify-content: center;
-  margin-left: -10rem;
   overflow: hidden;
   margin-top: -6rem;
+  transform: translateX(10%);
 }
 .services .container .service{
     height: 15rem;

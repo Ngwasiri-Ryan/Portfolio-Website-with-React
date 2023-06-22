@@ -1,19 +1,38 @@
-
 .home{
     width: 100%;
-    height: 100vh;
     background-color:var(--primary-color);
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    padding-top: 2%;
+  }
+  .head{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    justify-content: space-between;
+    position: fixed;
+  }
+  .navigator{
+    color: white;
+    border-radius: 50%;
+    width: 1.8rem;
+    border: 2px solid var(--color-white);
+    margin-left: 5%;
+    overflow: hidden;
+  }
+  .navigator p{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30%;
   }
   .container{
     display: flex;
-    width: 100%;
-    height: 75%;
-   padding-top: 10%;
+    width: 90%;
+    height: 70%;
     gap: 2rem;
-    padding-left: 22%;
+    padding-top: 5%;
+    padding-left: 10rem;
   }
   .container .icons{
     height: 50%;
@@ -24,9 +43,8 @@
     align-items: center;
     gap: 15%;
     margin-top: 7%;
-    margin-left:-7%;
-    margin-right: 10%;
-    
+    margin-left:7%;
+    margin-right: 2%;
   }
   .container .icons img{
    width: 1rem;
@@ -121,6 +139,10 @@
     height: 100%;
     margin-left: 20%;
   }
+  .container .picture img:hover{
+    transform: scale(0.9);
+    transition: 500ms ease;
+  }
   .container .scroll a{
     color: var(--secondary-color);
     margin-top: 20rem;
@@ -197,6 +219,7 @@
     }
     
   }
+
   @media screen and (max-width: 989px){
     .container{
       display: flex;

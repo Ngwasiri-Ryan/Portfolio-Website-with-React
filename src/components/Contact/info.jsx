@@ -38,7 +38,7 @@ function info() {
                   E-Mail
                 </div>
                 <div className='info-content'>
-                  housebuilders@amail.com
+                  <a href='ryanngwasiri@gmail.com'>ryanngwasiri@amail.com</a>
                 </div>
               </div>
           </div>

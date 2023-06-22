@@ -6,14 +6,16 @@
   --navbar-bgcolor:rgba(0, 0, 0, 0.288);
   --navbar-bgcolor-hover:rgba(0, 0, 0, 0.459);
   --color-white:white;
-    --transition:600ms ease-in-out;
-    --blob-border-radius:90% 60% 100%  /45% 67.9%;
-    --blob-border-radius-hover:50% 50% 80% 50% /45% 67.9% 50% 50%;
+  --transition:600ms ease-in-out;
+  --blob-border-radius:90% 60% 100%  /45% 67.9%;
+  --blob-border-radius-hover:50% 50% 80% 50% /45% 67.9% 50% 50%;
+  --dark-bgcolor:#121212;
   }
+  
   html{
     scroll-behavior: smooth;
-
   }
   *{ 
     overflow-x: hidden;
+    
   }

@@ -6,9 +6,18 @@ import Services from './components/Services/services';
 import Testimonial from './components/Testimonial/testimonial';
 import Contact from './components/Contact/contact';
 import Footer from  './components/Footer/footer';
+import { createContext ,useState} from 'react';   
+
+export const ThemeContext = createContext(null);
 function App() {
+   const [theme , setTheme] = useState('light')
+
+   const toggleTheme = () => {
+     setTheme((curr)=>( curr === 'light' ? 'dark' : 'light'));
+   };
   return (
-   <div>
+    <ThemeContext.Provider value={{theme, toggleTheme}}>
+   <div className='app' id={theme}>
     
     <Home />  
     <About /> 
@@ -18,6 +27,7 @@ function App() {
     <Contact /> 
     <Footer/>
    </div>
+   </ThemeContext.Provider>
   );
 }
 

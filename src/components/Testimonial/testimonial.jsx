@@ -22,7 +22,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Brandon Wang</span>
                <span>I really liked your logo design.</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
                 </div>
                 
@@ -31,7 +31,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Queency Jones</span>
                <span>I loved your work on my website.</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
                 </div>
 
@@ -40,7 +40,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Edison Romone</span>
                <span>Your web app is amazing</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
                 </div>
 
@@ -49,7 +49,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Patric Ayuk</span>
                <span>Cool bro, I like your work keep up.</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
                 </div>
 
@@ -58,7 +58,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Silvia Martins</span>
                <span>Your UI/UX designs are spectacular.</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
                 </div>
 
@@ -67,7 +67,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Jason Blunt</span>
                <span>Keep up the work dude.</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
               
                </div>
@@ -77,7 +77,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Cliford Brown</span>
                <span>You make good front-end websites.</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
               
                </div>
@@ -86,7 +86,7 @@ function testimonial() {
                 <div className="content">
                <span className='name'>Kajo Sandy</span>
                <span>Loved your gaphics design.</span>
-               <button>View Comments</button>
+               <button>Comments</button>
                 </div>
               
                </div>

@@ -29,9 +29,12 @@
 }
 .about .about-container .picture img{
     height:100%;
-    margin-left: 8%;
-    
+    margin-left: 8%; 
  }
+ .about-container .picture img:hover{
+    transform: scale(0.9);
+    transition: 500ms ease;
+  }
 .about .about-container .content{
     width: 30rem;
     height: 25rem;

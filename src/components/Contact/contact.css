@@ -21,7 +21,7 @@
    flex-direction: row;
    padding-right: 2%;
    position: relative;
-   gap: 1%;
+   gap: 10%;
    padding: 2rem
 }
 .contact-heading{ 
@@ -63,34 +63,40 @@
     padding-left: 2rem;
 }
 .contact-container .info-holder img{
-    height: 2rem;
-    width: 2rem;
+    height: 1.56rem;
+    width: 1.5rem;
 }
 .contact-container .info-holder .inform{
     display: flex;
     flex-direction: column;
     gap: 3%;
     height: 100%;
+    font-size: 14px;
+    
 }
 .contact-container .info-holder .inform .heading{
     color:var(--secondary-color);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     overflow: hidden;
     height: 2rem;
 }
-.contact-container .info-holder .inform .info-content{
+.contact-container .info-holder .inform .info-content {
    height: 100%;
 }
+.contact-container .info-holder .inform .info-content a {
+    text-decoration: none;
+    color:var(--color-white);
+ }
 .contact-container .form{
     height: 20rem;
     width: 23rem;
     gap: 4%;
-    padding: 2rem;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--secondary-color);
+    box-shadow: 3px 3px 2px 4px var(--navbar-bgcolor);
 }
 .contact-container .form .heading{
     color: var(--secondary-color);
@@ -122,6 +128,7 @@
   outline: none;
   width: 80%;
   background-color: var(--primary-color);
+  
 }
 .contact-container .form input[type="submit"]{
     padding: 7px 20px;
