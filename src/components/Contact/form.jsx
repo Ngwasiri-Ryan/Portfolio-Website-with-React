@@ -2,12 +2,12 @@ import React from 'react'
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 function form() {
-  
+ {/*const form = useRef(); */} 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-      .then((result) => {
+    emailjs.sendForm('k32_gk679', 'ghtydd239_rz', form.current, '123rtfbl0_32')
+      .then((result) =>{ 
           console.log(result.text);
           console.log('success');
       }, (error) => {
